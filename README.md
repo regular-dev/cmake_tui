@@ -8,7 +8,7 @@ CMake configuration via terminal user interface.
 cmake_tui /tmp/path_to_cmake_proj
 ​```
 
-<Arrows> - for navigating, <Enter> - to edit value, <Esc> - exit, <Space> - launch cmake, <h> - toggle help
+*Arrows* - for navigating, *Enter* - to edit value, *Esc* - exit, *Space* - launch cmake, *h* - toggle help
 
 ## Screenshot
 
