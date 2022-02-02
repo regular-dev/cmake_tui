@@ -1,8 +1,10 @@
 [package]
 name = "cmake_tui"
-version = "0.1.0"
-authors = ["John Titor <xionovermazes@yahoo.com>"]
+version = "1.0.0"
+authors = ["Xxxion <xionovermazes@yahoo.com>"]
 edition = "2018"
+description = "CMake configuration via terminal user interface"
+license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
