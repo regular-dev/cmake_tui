@@ -1,17 +1,16 @@
-# Maintainer: regular-dev.org <regular-dev@gmail.com>
+# Maintainer: Xxxion <xionovermazes@yahoo.com>
 pkgname=cmake_tui
-pkgver=0.1.0
+pkgver=1.0.0
 pkgrel=1
 makedepends=('rust' 'cargo')
 arch=('i686' 'x86_64' 'armv6h' 'armv7h')
-url='regular-dev.org'
+pkgdesc="CMake configuration via terminal user interface"
+license=('MIT')
 
 build() {
     return 0
 }
 
 package() {
-    cargo install --root="$pkgdir/usr/local" --path "../"
-    rm "$pkgdir/usr/local/.crates.toml"
-    rm "$pkgdir/usr/local/.crates2.json"
+    cargo install --root="$pkgdir" cmake_tui
 }
