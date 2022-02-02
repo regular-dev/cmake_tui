@@ -1,2 +1,3 @@
-# cmake_tui
-CMake terminal user interface
+# CMakeTui
+
+CMake configuration terminal user interface.
